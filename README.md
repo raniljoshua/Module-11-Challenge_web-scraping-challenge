@@ -6,7 +6,7 @@ Conducted a full web-scraping and data analysis, by extracting information via b
 
 Deliverable 1: Scrape titles and preview text from Mars news articles
 ----------------------------
-* Used automated browsing to visit the Mars news siteLinks to an external site. Inspected the page to identify which elements to scrape.
+* Used automated browsing to visit the Mars news site (https://static.bc-edx.com/data/web/mars_news/index.html). Inspected the page to identify which elements to scrape.
 * Created a Beautiful Soup object and used it to extract text elements from the website.
 * Extracted the titles and preview text of the news articles that was scraped. Stored the scraping results in Python data structures as follows:
   * Stored each title-and-preview pair in a Python dictionary and, gave each dictionary two keys: title and preview.
@@ -15,7 +15,7 @@ Deliverable 1: Scrape titles and preview text from Mars news articles
  
 Deliverable 2: Scrape and analyze Mars weather data, which exists in a table
 ----------------------------
-* Used automated browsing to visit the Mars Temperature Data SiteLinks to an external site. Inspected the page to identify which elements to scrape.
+* Used automated browsing to visit the Mars Temperature Data Site (https://static.bc-edx.com/data/web/mars_facts/temperature.html). Inspected the page to identify which elements to scrape.
 * Created a Beautiful Soup object and used it to scrape the data in the HTML table.
 * Assembled the scraped data into a Pandas DataFrame. Explanation of the column headings:
   * id: the identification number of a single transmission from the Curiosity rover
